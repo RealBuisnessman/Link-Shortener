@@ -1,0 +1,30 @@
+body { background-color:white;
+}
+h1 {  color:black;
+      background-color:white;
+    /*  border: 3px solid black; */
+      text-align:center; 
+      padding:20px;
+}
+p { color:black;
+    background-color:white;
+    border: 3px solid black;
+    margin: 50px;
+}
+#centredInput { text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-65%, -50%);}
+
+#centredButton { position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(130%, -50%);}
+
+  #outputBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 60%);
+  text-align: top;}
